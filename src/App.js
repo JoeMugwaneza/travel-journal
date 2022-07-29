@@ -1,10 +1,12 @@
 import './App.css';
+import travelData from './components/travelData';
+import NavBar from './components/navBar';
 
 function App() {
-  const fuck = "fucker"
   return (
-    <div className="App">
-      
+    <div>
+      <NavBar />
+
     </div>
   );
 }
