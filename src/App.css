@@ -40,6 +40,8 @@
 * {
   box-sizing: border-box;
 }
+
+/* FOR NAV */
 .nav-bar{
   display: flex;
   width: 100%;
@@ -54,10 +56,12 @@
   height: 24px;
 }
 
+
 .main-container{
   display: flex;
   width: 80%;
   margin: auto;
+  margin-top: 20px;
   
 }
 .main-top{
@@ -70,4 +74,7 @@
   padding: 10px;
   border-radius: 5%;
 }
-
+.map-locator{
+  width: 7px;
+  height: 9.55px;
+}

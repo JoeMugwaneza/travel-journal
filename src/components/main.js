@@ -9,7 +9,7 @@ export default function MainContent(){
             {/* CONTENT SIDE */}
             <div className='travel-content'>
                 <div className='main-top'>
-                    <img src={require('../images/locator.png')}/>
+                    <img src={require('../images/locator.png')} className='map-locator'/>
                     <h3 className='travel-location'>Karongi, Western</h3>
                     <span>View on Google Map</span>
                 </div>
