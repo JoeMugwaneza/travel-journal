@@ -39,6 +39,7 @@
 
 * {
   box-sizing: border-box;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* FOR NAV */
@@ -52,8 +53,18 @@
 }
 
 .nav-logo{
-  width: 24px;
-  height: 24px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 6%;
+  left: 26%;
+}
+
+.nav-title{
+  position: relative;
+  flex: 1;
+  width: 109px;
+  text-align: center;
 }
 
 
@@ -66,6 +77,7 @@
 }
 .main-top{
   display: flex;
+
 }
 
 .travel-image{
@@ -74,7 +86,50 @@
   padding: 10px;
   border-radius: 5%;
 }
+
 .map-locator{
-  width: 7px;
-  height: 9.55px;
+  height: 12px;
+  margin-top: 8px;
+}
+.travel-location{
+  margin: 5px;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.travel-content{
+  padding: 15px;
+}
+
+.location-map{
+  font-weight: 400;
+  line-height: 12px;
+  padding: 8px;
+  color:#918E9B;
+  text-decoration-line: underline;
+}
+
+.travel-title{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2B283A;
+  margin: 5px;
+}
+
+.travel-date{
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 12px;
+  color: #2B283A;
+  margin: 20px 2px 5px 5px;
+}
+
+.travel-description{
+  font-weight: 400;
+  line-height: 150%;
+  color: #2B283A;
+  font-style: normal;
+  font-size: 12px;
 }

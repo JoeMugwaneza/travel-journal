@@ -6,7 +6,7 @@ export default [
         googleMap: "https://karongilakeviewretreat.com/", 
         startDate: "August 08, 2021", 
         endDate: "August 15, 2021", 
-        description: 'A modern, private 4-bedroom home with 200 degree views of breathtaking Lake Kivu. An annex offers two additional en suite rooms for separate rental. Perfect for a special occasion, a personal retreat, or multiple families to relax and enjoy together. ', 
+        description: 'A modern, private 4-bedroom home with 200 degree views of breathtaking Lake Kivu. An annex offers two additional en suite rooms for separate rental. ', 
         imageUrl: 'karongi.jpg'
 
     },
