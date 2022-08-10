@@ -18,7 +18,7 @@ export default [
         startDate: "Jan 10, 2022", 
         endDate: "Jan 17, 2022", 
         description: 'Lake Kivu Serena Hotel celebrates the shores of this African Great Lake as a destination of astonishing beauty, where pristine beaches and the sparkling waters of Africa’s sixth largest lake come together in breathtaking fashion', 
-        image: 'rubavu.jpg'
+        imageUrl: 'rubavu.jpg'
 
     },
     {
@@ -29,7 +29,7 @@ export default [
         startDate: "May 5, 2022", 
         endDate: "May 12, 2022", 
         description: 'Welcome to Ibere rya Bigogwe tourist service, we offer tourist services which revolve around Bigogwe (a very unique place in Nyabihu district) those includes Camping, Hiking, Cow boys sport and many more.', 
-        image: 'vist-rwanda.jpg'
+        imageUrl: 'vist-rwanda.jpg'
 
     }
 ]

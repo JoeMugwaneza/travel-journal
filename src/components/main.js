@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default function MainContent(){
+export default function MainContent(props){
     return(
         <div className='main-container'>
             {/* IMAGE SIDE */}
-            <img src={require("../images/karongi.jpg")} className='travel-image'/>
+            <img src={require(`../images/${props.imageUrl}`)} className='travel-image'/>
 
             {/* CONTENT SIDE */}
             <div className='travel-content'>
